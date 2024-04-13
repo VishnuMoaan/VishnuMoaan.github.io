@@ -1,0 +1,272 @@
+/*General*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: white; */
+}
+
+/*NavBar*/
+.navbar{
+    background-color: black;
+}
+/*NavBar-links*/
+.nav-link{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+}
+/*NavBar-hovering*/
+.nav-link:hover{
+    color: whitesmoke;
+    background-color: black;
+}
+/*NavBar-logo*/
+.navbar-brand{
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*Home Section*/
+.home{
+    background: url("./images/bg.png");
+    background-size: cover;
+    width: 100%;;
+    height: 100vh;
+}
+.home h3{
+    font-size: 4.4rem;
+    font-weight: 700;
+}
+
+
+
+/*About*/
+.pro-img{
+    -webkit-box-shadow: 59px 42px 18px -24px rgba(0,0,0,0.72);
+    -moz-box-shadow: 59px 42px 18px -24px rgba(0,0,0,0.72);
+    box-shadow: 59px 42px 18px -24px rgba(0,0,0,0.72);
+    border-color: black;
+    border-style:inset;
+    border-radius: 0.5cm;
+    height: 450px;
+    
+}
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.content{
+    text-align: justify;
+}
+.progress{
+    background-color:white;
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;;
+    height: 25px;
+    width: 80%;
+    margin-left: 20px;
+}
+.pro-value1{
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.pro-value2{
+    animation: load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.pro-value3{
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.pro-value4{
+    animation: load4 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.pro-value5{
+    animation: load5 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.progress p{
+    color: white;
+    padding: 5px;
+}
+
+.downldcv{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+}
+.downldcv:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
+.contact-card{
+    height: 230px;
+    width: 650px;
+    background-color:#D3D3D3;
+    /* border: 1px solid black; */
+    outline: none;
+    -webkit-box-shadow: 44px 49px 34px -39px rgba(0,0,0,0.72);
+-moz-box-shadow: 44px 49px 34px -39px rgba(0,0,0,0.72);
+box-shadow: 44px 49px 34px -39px rgba(0,0,0,0.72);
+
+}
+.logo{
+    background-color: black;
+}
+.cardex{
+    height: 250px;
+    width: 250px;
+    background-color:#F0E68C;
+    /* border: 1px solid black; */
+    outline: none;
+    -webkit-box-shadow: 44px 49px 34px -39px rgba(0,0,0,0.72);
+-moz-box-shadow: 44px 49px 34px -39px rgba(0,0,0,0.72);
+box-shadow: 44px 49px 34px -39px rgba(0,0,0,0.72);
+}
+.cardex p{
+    color: black;
+}
+.card-prskil{
+    height: 300px;
+    width: 280px;
+    background-color:#B0C4DE;
+    /* border: 1px solid black; */
+    /* border-radius: 5%; */
+    outline: none;
+    -webkit-box-shadow: 44px 49px 34px -39px rgba(0,0,0,0.72);
+-moz-box-shadow: 44px 49px 34px -39px rgba(0,0,0,0.72);
+box-shadow: 44px 49px 34px -39px rgba(0,0,0,0.72);
+}
+.card-otherskill{
+    height: 300px;
+    width: 710px;
+    background-color: #B0C4DE;
+    /* border: 1px solid black; */
+    outline: none;
+    -webkit-box-shadow: 44px 49px 34px -39px rgba(0,0,0,0.72);
+-moz-box-shadow: 44px 49px 34px -39px rgba(0,0,0,0.72);
+box-shadow: 44px 49px 34px -39px rgba(0,0,0,0.72);
+}
+
+
+
+.exp1{
+    height: 70px;
+    width: 70px;
+
+}
+
+.skills{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    /* border: 1px solid black; */
+    text-align: center;
+
+}
+
+@keyframes load1 {
+    0%{
+        width:0;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes load2 {
+    0%{
+        width:0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes load3 {
+    0%{
+        width:0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes load4 {
+    0%{
+        width:0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes load5 {
+    0%{
+        width:0;
+    }
+    100%{
+        width: 65%;
+    }
+}
+
+/* spl */
+
+.card-container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    outline: none;
+    /* border: 1px solid #ccc; */
+    
+}
+
+.card {
+    width:80px;
+	height:80px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #B0C4DE;
+    /* border-color: black; */
+    text-align: center;
+    float: left;
+}
+
+.skilimg{
+	width:63px;
+	height: 65px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
